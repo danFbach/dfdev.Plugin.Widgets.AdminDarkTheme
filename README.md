@@ -1,4 +1,4 @@
-# AdminDarkTheme
+# Admin Dark Theme
 ### A simple nopCommerce Plugin to enable an admin dark theme.
 
 Features:
