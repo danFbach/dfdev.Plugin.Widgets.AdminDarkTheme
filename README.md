@@ -8,6 +8,7 @@ Features:
 * stores preference in localStorage (so no added db fields or customer attributes)
 * retina protection from white dashboard 😂
 
+It is currently built for 4.6, as that is what I'm currently running. Some simple changes should make it compatible with other versions.
 fork as you please.
 free to use and redistribute.
 
