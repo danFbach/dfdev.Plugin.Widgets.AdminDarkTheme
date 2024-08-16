@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Admin Dark Theme",
+  "SystemName": "Widgets.AdminDarkTheme",
+  "Version": "4.60.1",
+  "SupportedVersions": [ "4.60" ],
+  "Author": "Dan Fehrenbach",
+  "DisplayOrder": 1,
+  "FileName": "dfdev.Plugin.Widgets.AdminDarkTheme.dll",
+  "Description": "Enables dark theme for admin area."
+}

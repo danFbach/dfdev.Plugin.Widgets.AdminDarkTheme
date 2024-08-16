@@ -1,0 +1,309 @@
+﻿#theme-toggle i {
+  font-size: 20px;
+  display: block;
+  height: 35px;
+  width: 35px;
+  padding: .5rem 1rem 0 0;
+  color: rgba(255,255,255,.75);
+  cursor: pointer;
+}
+
+  #theme-toggle i:hover {
+    color: #FFF;
+  }
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) .content-header > h1 {
+    color: white;
+  }
+
+  html:not(.light) .content-wrapper {
+    background-color: #2b2f34;
+  }
+
+  html:not(.light) .card {
+    background: #343a40;
+    color: white;
+    border: 1px solid rgba(0,0,0,.25);
+  }
+
+    html:not(.light) .card.card-primary > .card-header {
+      border-color: #007bff;
+    }
+
+    html:not(.light) .card.card-secondary > .card-header {
+      background-color: transparent;
+      color: white;
+      border-color: #00c0ef;
+    }
+
+    html:not(.light) .card.card-primary.collapsed-card > .card-header,
+    html:not(.light) .card.card-secondary.collapsed-card > .card-header {
+      border-color: white;
+    }
+
+      html:not(.light) .card.card-primary.collapsed-card > .card-header .card-title i,
+      html:not(.light) .card.card-secondary.collapsed-card > .card-header .card-title i {
+        color: white;
+      }
+
+
+    html:not(.light) .card.card-primary > .card-header .card-title i {
+      color: #007bff;
+    }
+
+    html:not(.light) .card.card-secondary > .card-header .card-title i {
+      color: #00c0ef;
+    }
+
+  html:not(.light) .card-info:not(.card-outline) > .card-header {
+    background-color: #153343;
+  }
+
+  html:not(.light) .main-footer {
+    background-color: #2b2f34;
+  }
+
+  html:not(.light) tr.even,
+  html:not(.light) div.dataTables_scrollHead > div > table > thead > tr {
+    background-color: #2b2f34;
+  }
+
+  html:not(.light) .table-hover tbody tr:hover {
+    color: white;
+  }
+
+  html:not(.light) .table-bordered,
+  html:not(.light) .table-bordered > thead > tr > th,
+  html:not(.light) .table-bordered > tbody > tr > th,
+  html:not(.light) .table-bordered > tfoot > tr > th,
+  html:not(.light) .table-bordered > thead > tr > td,
+  html:not(.light) .table-bordered > tbody > tr > td,
+  html:not(.light) .table-bordered > tfoot > tr > td,
+  html:not(.light) .table-bordered td,
+  html:not(.light) .table-bordered th,
+  html:not(.light) .dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-color: #535b62 !important;
+  }
+
+  html:not(.light) .pagination > li > a {
+    background-color: #3c8dbc;
+    color: #FFF;
+    border-color: #535b62;
+  }
+
+  html:not(.light) .page-link:hover {
+    background-color: #51b1e9;
+    color: #FFF;
+    border-color: #535b62;
+  }
+
+  html:not(.light) .page-item.disabled .page-link {
+    background-color: #535b62;
+    border-color: #535b62;
+    color: #333;
+  }
+
+  html:not(.light) .page-item.active .page-link {
+    background-color: #51b1e9;
+    border-color: #51b1e9;
+  }
+
+  html:not(.light) .k-picker-wrap .k-input,
+  html:not(.light) .k-numeric-wrap .k-input {
+    color: white;
+  }
+
+  html:not(.light) .tag-editor,
+  html:not(.light) .tag-editor .tag-editor-tag.active,
+  html:not(.light) .form-control,
+  html:not(.light) .form-control:focus,
+  html:not(.light) .k-list-container,
+  html:not(.light) .k-autocomplete.k-state-hover,
+  html:not(.light) .k-multiselect-wrap.k-state-hover,
+  html:not(.light) .k-state-hover > .k-multiselect-wrap,
+  html:not(.light) .k-input,
+  html:not(.light) .k-multiselect-wrap,
+  html:not(.light) .k-textbox > input,
+  html:not(.light) input.k-textbox,
+  html:not(.light) input.k-textbox:hover,
+  html:not(.light) textarea.k-textbox,
+  html:not(.light) textarea.k-textbox:hover {
+    background-color: #343a40;
+    border-color: #535b62 !important;
+    color: white;
+  }
+
+    html:not(.light) .tag-editor .tag-editor-tag,
+    html:not(.light) .btn-default,
+    html:not(.light) div.dataTables_wrapper > div.row.margin-t-5 > div.col-lg-1.col-xs-12 > div > div > button,
+    html:not(.light) .k-picker-wrap.k-state-default > .k-select,
+    html:not(.light) .k-button {
+      background-color: #3c8dbc;
+      border-color: transparent;
+      color: white !important;
+    }
+
+      html:not(.light) .btn-default.hover,
+      html:not(.light) .btn-default:active,
+      html:not(.light) .btn-default:hover,
+      html:not(.light) div.dataTables_wrapper > div.row.margin-t-5 > div.col-lg-1.col-xs-12 > div > div > button:hover,
+      html:not(.light) .k-picker-wrap.k-state-hover > .k-select,
+      html:not(.light) .k-state-hover .k-button {
+        background-color: #55a9da;
+        border-color: transparent;
+      }
+
+  html:not(.light) body .tag-editor .tag-editor-tag .ui-autocomplete-input,
+  html:not(.light) .input-group.input-group-short .input-group-text {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html.dark .content-header > h1 {
+    color: white;
+  }
+
+  html.dark .content-wrapper {
+    background-color: #2b2f34;
+  }
+
+  html.dark .card {
+    background: #343a40;
+    color: white;
+    border: 1px solid rgba(0,0,0,.25);
+  }
+
+    html.dark .card.card-primary > .card-header {
+      border-color: #007bff;
+    }
+
+    html.dark .card.card-secondary > .card-header {
+      background-color: transparent;
+      color: white;
+      border-color: #00c0ef;
+    }
+
+    html.dark .card.card-primary.collapsed-card > .card-header,
+    html.dark .card.card-secondary.collapsed-card > .card-header {
+      border-color: white;
+    }
+
+      html.dark .card.card-primary.collapsed-card > .card-header .card-title i,
+      html.dark .card.card-secondary.collapsed-card > .card-header .card-title i {
+        color: white;
+      }
+
+
+    html.dark .card.card-primary > .card-header .card-title i {
+      color: #007bff;
+    }
+
+    html.dark .card.card-secondary > .card-header .card-title i {
+      color: #00c0ef;
+    }
+
+  html.dark .card-info:not(.card-outline) > .card-header {
+    background-color: #153343;
+  }
+
+  html.dark .main-footer {
+    background-color: #2b2f34;
+  }
+
+  html.dark tr.even,
+  html.dark div.dataTables_scrollHead > div > table > thead > tr {
+    background-color: #2b2f34;
+  }
+
+  html.dark .table-hover tbody tr:hover {
+    color: white;
+  }
+
+  html.dark .table-bordered,
+  html.dark .table-bordered > thead > tr > th,
+  html.dark .table-bordered > tbody > tr > th,
+  html.dark .table-bordered > tfoot > tr > th,
+  html.dark .table-bordered > thead > tr > td,
+  html.dark .table-bordered > tbody > tr > td,
+  html.dark .table-bordered > tfoot > tr > td,
+  html.dark .table-bordered td,
+  html.dark .table-bordered th,
+  html.dark .dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-color: #535b62 !important;
+  }
+
+  html.dark .pagination > li > a {
+    background-color: #3c8dbc;
+    color: #FFF;
+    border-color: #535b62;
+  }
+
+  html.dark .page-link:hover {
+    background-color: #51b1e9;
+    color: #FFF;
+    border-color: #535b62;
+  }
+
+  html.dark .page-item.disabled .page-link {
+    background-color: #535b62;
+    border-color: #535b62;
+    color: #333;
+  }
+
+  html.dark .page-item.active .page-link {
+    background-color: #51b1e9;
+    border-color: #51b1e9;
+  }
+
+  html.dark .k-picker-wrap .k-input,
+  html.dark .k-numeric-wrap .k-input {
+    color: white;
+  }
+
+  html.dark .tag-editor,
+  html.dark .tag-editor .tag-editor-tag.active,
+  html.dark .form-control,
+  html.dark .form-control:focus,
+  html.dark .k-list-container,
+  html.dark .k-autocomplete.k-state-hover,
+  html.dark .k-multiselect-wrap.k-state-hover,
+  html.dark .k-state-hover > .k-multiselect-wrap,
+  html.dark .k-input,
+  html.dark .k-multiselect-wrap,
+  html.dark .k-textbox > input,
+  html.dark input.k-textbox,
+  html.dark input.k-textbox:hover,
+  html.dark textarea.k-textbox,
+  html.dark textarea.k-textbox:hover {
+    background-color: #343a40;
+    border-color: #535b62 !important;
+    color: white;
+  }
+
+    html.dark .tag-editor .tag-editor-tag,
+    html.dark .btn-default,
+    html.dark div.dataTables_wrapper > div.row.margin-t-5 > div.col-lg-1.col-xs-12 > div > div > button,
+    html.dark .k-picker-wrap.k-state-default > .k-select,
+    html.dark .k-button {
+      background-color: #3c8dbc;
+      border-color: transparent;
+      color: white !important;
+    }
+
+      html.dark .btn-default.hover,
+      html.dark .btn-default:active,
+      html.dark .btn-default:hover,
+      html.dark div.dataTables_wrapper > div.row.margin-t-5 > div.col-lg-1.col-xs-12 > div > div > button:hover,
+      html.dark .k-picker-wrap.k-state-hover > .k-select,
+      html.dark .k-state-hover .k-button {
+        background-color: #55a9da;
+        border-color: transparent;
+      }
+
+  html.dark body .tag-editor .tag-editor-tag .ui-autocomplete-input,
+  html.dark .input-group.input-group-short .input-group-text {
+    color: white;
+  }
+}
