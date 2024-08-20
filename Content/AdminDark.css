@@ -24,17 +24,23 @@
   html:not(.light) .card {
     background: #343a40;
     color: white;
-    border: 1px solid rgba(0,0,0,.25);
+    /*border: 1px solid rgba(0,0,0,.25);*/
   }
+
+    html:not(.light) .card .card-header {
+      background-color: rgba(255,255,255,0.1);
+    }
 
     html:not(.light) .card.card-primary > .card-header {
       background-color: rgba(255,255,255,0.1);
       border-color: #3c8dbc;
+      color: #fff;
     }
 
     html:not(.light) .card.card-secondary > .card-header {
       background-color: rgba(255,255,255,0.1);
       border-color: #00c0ef;
+      color: #fff;
     }
 
     html:not(.light) .card.card-primary.collapsed-card > .card-header,
@@ -49,6 +55,13 @@
 
   html:not(.light) .btn-group.show .btn-tool, .btn-tool:hover {
     color: #fff;
+  }
+
+  html:not(.light) .alert .close,
+  html:not(.light) .alert .close:hover,
+  html:not(.light) .alert .mailbox-attachment-close,
+  html:not(.light) .alert .mailbox-attachment-close:hover {
+    color: #000;
   }
 
   html:not(.light) .card.card-primary > .card-header .card-title i {
@@ -208,21 +221,26 @@
     background-color: #2b2f34;
   }
 
-
   html.dark .card {
     background: #343a40;
     color: white;
-    border: 1px solid rgba(0,0,0,.25);
+    /*border: 1px solid rgba(0,0,0,.25);*/
   }
+
+    html.dark .card .card-header {
+      background-color: rgba(255,255,255,0.1);
+    }
 
     html.dark .card.card-primary > .card-header {
       border-color: #3c8dbc;
       background-color: rgba(255,255,255,0.1);
+      color: #FFF;
     }
 
     html.dark .card.card-secondary > .card-header {
       background-color: rgba(255,255,255,0.1);
       border-color: #00c0ef;
+      color: #FFF;
     }
 
     html.dark .card.card-primary.collapsed-card > .card-header,
@@ -237,6 +255,13 @@
 
   html.dark .btn-group.show .btn-tool, .btn-tool:hover {
     color: #fff;
+  }
+
+  html.dark .alert .close,
+  html.dark .alert .close:hover,
+  html.dark .alert .mailbox-attachment-close,
+  html.dark .alert .mailbox-attachment-close:hover {
+    color: #000;
   }
 
   html.dark .card.card-primary > .card-header .card-title i {
