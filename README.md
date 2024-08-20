@@ -15,5 +15,8 @@ free to use and redistribute.
 *no guarantees, as-is.*
 
 Here's what it looks like:
-![Screenshot 2024-08-16 at 10-33-15 Dashboard _ nopCommerce administration](https://github.com/user-attachments/assets/4fad2eec-a97f-4fd9-8a07-c24b3f8a1f3b)
-![Screenshot 2024-08-16 at 10-33-33 Customers _ nopCommerce administration](https://github.com/user-attachments/assets/5964bdea-70d0-442e-8c4f-d67116a46e3a)
+![nop_dashbaord](https://github.com/user-attachments/assets/2b5aade3-2a7e-4652-aff7-9297787cb9e9)
+
+![nop_customers](https://github.com/user-attachments/assets/e59920d8-73fc-4e48-9627-0d2801f197c4)
+
+![nop_customer](https://github.com/user-attachments/assets/5358544a-3f96-4b87-969b-3e280b16b727)
