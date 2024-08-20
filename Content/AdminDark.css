@@ -28,12 +28,12 @@
   }
 
     html:not(.light) .card.card-primary > .card-header {
-      border-color: #007bff;
+      background-color: rgba(255,255,255,0.1);
+      border-color: #3c8dbc;
     }
 
     html:not(.light) .card.card-secondary > .card-header {
-      background-color: transparent;
-      color: white;
+      background-color: rgba(255,255,255,0.1);
       border-color: #00c0ef;
     }
 
@@ -47,14 +47,17 @@
         color: white;
       }
 
+  html:not(.light) .btn-group.show .btn-tool, .btn-tool:hover {
+    color: #fff;
+  }
 
-    html:not(.light) .card.card-primary > .card-header .card-title i {
-      color: #007bff;
-    }
+  html:not(.light) .card.card-primary > .card-header .card-title i {
+    color: #3c8dbc;
+  }
 
-    html:not(.light) .card.card-secondary > .card-header .card-title i {
-      color: #00c0ef;
-    }
+  html:not(.light) .card.card-secondary > .card-header .card-title i {
+    color: #00c0ef;
+  }
 
   html:not(.light) .card-info:not(.card-outline) > .card-header {
     background-color: #153343;
@@ -157,6 +160,7 @@
     color: white;
   }
 
+    html:not(.light) .btn-info,
     html:not(.light) .tag-editor .tag-editor-tag,
     html:not(.light) .btn-default,
     html:not(.light) div.dataTables_wrapper > div.row.margin-t-5 > div.col-lg-1.col-xs-12 > div > div > button,
@@ -167,6 +171,7 @@
       color: white !important;
     }
 
+      html:not(.light) .btn-info:hover,
       html:not(.light) .btn-default.hover,
       html:not(.light) .btn-default:active,
       html:not(.light) .btn-default:hover,
@@ -211,12 +216,12 @@
   }
 
     html.dark .card.card-primary > .card-header {
-      border-color: #007bff;
+      border-color: #3c8dbc;
+      background-color: rgba(255,255,255,0.1);
     }
 
     html.dark .card.card-secondary > .card-header {
-      background-color: transparent;
-      color: white;
+      background-color: rgba(255,255,255,0.1);
       border-color: #00c0ef;
     }
 
@@ -230,14 +235,17 @@
         color: white;
       }
 
+  html.dark .btn-group.show .btn-tool, .btn-tool:hover {
+    color: #fff;
+  }
 
-    html.dark .card.card-primary > .card-header .card-title i {
-      color: #007bff;
-    }
+  html.dark .card.card-primary > .card-header .card-title i {
+    color: #3c8dbc;
+  }
 
-    html.dark .card.card-secondary > .card-header .card-title i {
-      color: #00c0ef;
-    }
+  html.dark .card.card-secondary > .card-header .card-title i {
+    color: #00c0ef;
+  }
 
   html.dark .card-info:not(.card-outline) > .card-header {
     background-color: #153343;
@@ -340,6 +348,7 @@
     color: white;
   }
 
+    html.dark .btn-info,
     html.dark .tag-editor .tag-editor-tag,
     html.dark .btn-default,
     html.dark div.dataTables_wrapper > div.row.margin-t-5 > div.col-lg-1.col-xs-12 > div > div > button,
@@ -350,6 +359,7 @@
       color: white !important;
     }
 
+      html.dark .btn-info:hover,
       html.dark .btn-default.hover,
       html.dark .btn-default:active,
       html.dark .btn-default:hover,
