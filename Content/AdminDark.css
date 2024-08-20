@@ -83,6 +83,10 @@
     color: #FFF;
   }
 
+    html:not(.light) .dropdown-menu button {
+      color: #fff;
+    }
+
   html:not(.light) tr.even,
   html:not(.light) div.dataTables_scrollHead > div > table > thead > tr {
     background-color: #2b2f34;
@@ -199,6 +203,7 @@
     background-color: #2b2f34;
   }
 
+
   html.dark .card {
     background: #343a40;
     color: white;
@@ -247,6 +252,10 @@
     background-color: #2b2f34;
     color: #FFF;
   }
+
+    html.dark .dropdown-menu button {
+      color: #fff;
+    }
 
   html.dark .modal-content {
     background-color: #2b2f34;
