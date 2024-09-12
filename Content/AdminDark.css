@@ -13,7 +13,8 @@
   }
 
 @media (prefers-color-scheme: dark) {
-  html:not(.light) .content-header > h1 {
+  html:not(.light) .content-header > h1,
+  html:not(.light) .modal-dialog {
     color: white;
   }
 
@@ -213,7 +214,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-  html.dark .content-header > h1 {
+  html.dark .content-header > h1,
+  html.dark .modal-dialog {
     color: white;
   }
 
