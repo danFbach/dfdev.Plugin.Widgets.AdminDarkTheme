@@ -126,6 +126,10 @@
     border-color: #535b62 !important;
   }
 
+  html:not(.light) .table-striped tbody tr.odd {
+      background-color: transparent;
+  }
+
   html:not(.light) .pagination > li > a {
     background-color: #3c8dbc;
     color: #FFF;
@@ -325,6 +329,10 @@
   html.dark .table-bordered th,
   html.dark .dataTables_wrapper.no-footer .dataTables_scrollBody {
     border-color: #535b62 !important;
+  }
+
+  html.dark .table-striped tbody tr.odd {
+    background-color: transparent;
   }
 
   html.dark .pagination > li > a {
