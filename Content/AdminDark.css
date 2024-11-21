@@ -127,7 +127,7 @@
   }
 
   html:not(.light) .table-striped tbody tr.odd {
-      background-color: transparent;
+    background-color: transparent;
   }
 
   html:not(.light) .pagination > li > a {
@@ -214,6 +214,18 @@
   html:not(.light) .mailbox-attachment-close,
   html:not(.light) .mailbox-attachment-close:hover {
     color: #FFF;
+  }
+
+  html:not(.light) .requirement-container.requirement-group > .requirement-heading {
+    background: transparent;
+  }
+
+  html:not(.light) .onoffswitch-inner::after {
+    background-color: #2b2f34;
+  }
+
+  html:not(.light) .onoffswitch-switch {
+    background: #343a40;
   }
 }
 
@@ -419,5 +431,17 @@
   html.dark .mailbox-attachment-close,
   html.dark .mailbox-attachment-close:hover {
     color: #FFF;
+  }
+
+  html.dark .requirement-container.requirement-group > .requirement-heading {
+    background: transparent;
+  }
+
+  html.dark .onoffswitch-inner::after {
+    background-color: #2b2f34;
+  }
+
+  html.dark .onoffswitch-switch {
+    background: #343a40;
   }
 }
